@@ -1,0 +1,7 @@
+{
+  "name": "clipa-demo-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demostración local de una plataforma de campañas, creadores y pagos simulados",
+  "scripts": { "start": "node server.cjs", "test": "node --test tests/engine.test.cjs", "check": "node --check app.js && node --check engine.js && node --check server.cjs" }
+}
